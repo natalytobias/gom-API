@@ -1,0 +1,92 @@
+Wed Jul  2 21:34:33 2025
+
+
+*GoMRcpp Summary***********************
+Input data object---------------------: From input data object
+Number of profiles in initial model---: 4
+Number of profiles in final model-----: 4
+GoM scores algorithm------------------: gradient.1992
+Initial GoM scores--------------------: equal.values
+Fit GoM scores------------------------: TRUE
+Pure type probabilities algorithm-----: gradient.1992
+Initial pure type probabilities-------: random
+Fit pure type probabilities-----------: TRUE
+Sort profiles-------------------------: TRUE
+Records in data object----------------: 1000
+Unique data patterns------------------: From input data object
+Case label----------------------------: SubjID
+Case weight---------------------------: None
+Internal variables--------------------: Var1 Var2 Var3 
+External variables--------------------: ------ 
+
+
+*Note 24 unique data patterns (I) has found in data object.
+
+
+Frequency Table Original Data:
+    	   	n	%
+Var1	l1	326	32.600
+    	l2	331	33.100
+    	l3	343	34.300
+
+Var2	l1	513	51.300
+    	l2	487	48.700
+
+Var3	l1	255	25.500
+    	l2	220	22.000
+    	l3	270	27.000
+    	l4	255	25.500
+
+
+Primal Pure Type Probabilities:
+   	   	k1    	k2    	k3    	k4    
+Var1	l1	0.8809	0.1580	0.0347	0.4112
+    	l2	0.0861	0.5228	0.0212	0.3845
+    	l3	0.0330	0.3192	0.9441	0.2043
+
+Var2	l1	0.1599	0.1682	0.2691	0.2323
+    	l2	0.8401	0.8318	0.7309	0.7677
+
+Var3	l1	0.0152	0.4215	0.0216	0.0054
+    	l2	0.3214	0.1561	0.1100	0.2279
+    	l3	0.1017	0.2802	0.5202	0.0398
+    	l4	0.5618	0.1422	0.3482	0.7268
+
+
+Latter Pure Type Probabilities:
+   	   	k1    	k2    	k3    	k4    
+Var1	l1	1.0000	0.0000	0.0000	0.0000
+    	l2	0.0000	1.0000	0.0000	1.0000
+    	l3	0.0000	0.0000	1.0000	0.0000
+
+Var2	l1	0.4979	1.0000	0.4493	0.0000
+    	l2	0.5021	0.0000	0.5507	1.0000
+
+Var3	l1	0.0000	1.0000	0.0000	0.0000
+    	l2	1.0000	0.0000	0.0000	0.0000
+    	l3	0.0000	0.0000	1.0000	0.0000
+    	l4	0.0000	0.0000	0.0000	1.0000
+
+
+Primal Log-Likelihood is:       	-3530.1340
+
+
+Latter Log-Likelihood is:       	-1556.2724
+
+
+Akaike Information Criterion:   	11184.5447
+
+
+Lambda-Marginal Frequency Ratio (LMFR):
+   	   	n	%	k1    	k2    	k3    	k4    	k1/%lj	k2/%lj	k3/%lj	k4/%lj
+Var1	l1	326	32.600	1.0000	0.0000	0.0000	0.0000	3.0675	0.0000	0.0000	0.0000
+    	l2	331	33.100	0.0000	1.0000	0.0000	1.0000	0.0000	3.0211	0.0000	3.0211
+    	l3	343	34.300	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	2.9155	0.0000
+
+Var2	l1	513	51.300	0.4979	1.0000	0.4493	0.0000	0.9706	1.9493	0.8758	0.0000
+    	l2	487	48.700	0.5021	0.0000	0.5507	1.0000	1.0310	0.0000	1.1308	2.0534
+
+Var3	l1	255	25.500	0.0000	1.0000	0.0000	0.0000	0.0000	3.9216	0.0000	0.0000
+    	l2	220	22.000	1.0000	0.0000	0.0000	0.0000	4.5455	0.0000	0.0000	0.0000
+    	l3	270	27.000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	3.7037	0.0000
+    	l4	255	25.500	0.0000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	3.9216
